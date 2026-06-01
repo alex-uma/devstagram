@@ -11,142 +11,49 @@
 
 ## 💻 Descripción
 
-**Devstagram** es un clon de Instagram enfocado en programadores 👨‍💻👩‍💻, donde los usuarios pueden compartir publicaciones relacionadas al desarrollo, interactuar con otros usuarios y fortalecer su comunidad tech.
-
-Este proyecto fue desarrollado como parte de un curso impartido por **Juan Pablo De la Torre Valdez**, adaptado y actualizado a tecnologías modernas.
-
----
+Red social inspirada en plataformas de contenido visual, desarrollada con **Laravel 10** y tecnologías modernas para ofrecer una experiencia interactiva enfocada en la comunidad tecnológica.
 
 ## ✨ Características
 
-* 🔐 Autenticación de usuarios
-* 📝 Publicación de contenido
-* ❤️ Sistema de likes
-* 👤 Perfiles de usuario
-* ⚡ Interacciones dinámicas (Livewire)
-* 🎨 Diseño moderno con Tailwind CSS
+* 🔐 Autenticación y gestión de usuarios.
+* 📝 Creación y administración de publicaciones.
+* ❤️ Sistema de interacción mediante likes.
+* 👤 Perfiles personalizados.
+* ⚡ Actualizaciones dinámicas con Livewire.
+* 📱 Diseño responsive y moderno.
 
----
+## 🛠️ Tecnologías
 
-## 🛠️ Tecnologías utilizadas
+* Laravel 10
+* Livewire 4
+* Tailwind CSS
+* Alpine.js
+* MySQL
+* PHP 8+
 
-* **Laravel 10**
-* **Livewire 4**
-* **Tailwind CSS**
-* **MySQL**
-* **Alpine.js**
-* **PHP 8+**
+## 🏗️ Arquitectura
 
----
+Aplicación desarrollada bajo el patrón **MVC**, utilizando componentes reutilizables y una estructura escalable que facilita el mantenimiento y la incorporación de nuevas funcionalidades.
 
-## 📦 Instalación
-
-### 1. Clonar repositorio
+## 🚀 Instalación
 
 ```bash
-git clone https://github.com/tu-usuario/devstagram.git
+git clone https://github.com/usuario/devstagram.git
+
 cd devstagram
-```
 
----
-
-### 2. Instalar dependencias
-
-```bash
 composer install
 npm install
-```
 
----
-
-### 3. Configurar entorno
-
-```bash
 cp .env.example .env
+
 php artisan key:generate
-```
 
-Configura tu base de datos en `.env`
-
----
-
-### 4. Migraciones
-
-```bash
 php artisan migrate
-```
 
----
-
-### 5. Compilar assets
-
-```bash
 npm run dev
-```
 
----
-
-### 6. Ejecutar servidor
-
-```bash
 php artisan serve
 ```
 
----
-
-## 🌐 Acceso
-
-http://127.0.0.1:8000
-
----
-
-## 📁 Estructura
-
-app/Livewire → lógica
-resources/views/livewire → vistas
-resources/views/components → componentes anónimos
-
----
-
-## ⚡ Livewire
-
-Se utiliza Livewire para lograr una experiencia dinámica sin recargar la página, simplificando la interacción del usuario.
-
----
-
-## 🎯 Objetivo
-
-Proyecto educativo enfocado en:
-
-* Aprender Laravel moderno
-* Implementar buenas prácticas
-* Crear aplicaciones interactivas
-
----
-
-## 🚀 Mejoras futuras
-
-* 💬 Comentarios
-* 🔔 Notificaciones
-* 👥 Seguidores
-* 📱 Mejor responsive
-
----
-
-## 🤝 Créditos
-
-Curso desarrollado por:
-
-**Juan Pablo De la Torre Valdez**
-
----
-
-## 👨‍💻 Autor
-
-**Alex Uma**
-
----
-
-<p align="center">
-  💡 Proyecto enfocado en aprendizaje y desarrollo profesional
-</p>
+⭐ Si este proyecto te resulta interesante, considera marcarlo como favorito en GitHub.
